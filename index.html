@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 1</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-4 btnCol">
+                <img onclick="showImage(0)" id="btnEye0" src="images/eye.png">
+            </div>
+            <div class="col-sm-4 btnCol">
+                <img onclick="showImage(1)" id="btnEye1" src="images/eye.png">
+            </div>
+            <div class="col-sm-4 btnCol">
+                <img onclick="showImage(2)" id="btnEye2" src="images/eye.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 btnCol">
+                <img onclick="showImage(3)" id="btnEye3" src="images/eye.png">
+            </div>
+            <div class="col-sm-4 btnCol">
+                <img onclick="showImage(4)" id="btnEye4" src="images/eye.png">
+            </div>
+            <div class="col-sm-4 btnCol">
+                <img onclick="showImage(5)" id="btnEye5" src="images/eye.png">
+            </div>
+        </div>
+    	
+        <div class="row mt-4">
+            <div class="col">
+                <button class="btn btn-primary btn-block" id="btnNewGame">New Game</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-warning btn-block" id="btnReset">Reset Game</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>    
+</body>
+</html>
